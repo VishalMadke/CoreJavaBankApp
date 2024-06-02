@@ -7,6 +7,7 @@ import com.cjc.bankapplication.service.RBI;
 
 public class Axis implements RBI {
 
+	int x=101;
 	Account ac=null;
 	Scanner sc = new Scanner(System.in);
 	public void createAccount()
